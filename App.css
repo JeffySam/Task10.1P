@@ -1,0 +1,90 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.newsletter-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #401212;
+  padding: 40px;
+}
+
+.sections div {
+  color: white;
+  width: 30%;
+}
+
+h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+  text-align: center; 
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.stay-connected {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  text-align: center;
+}
+
+
+.stay-connected h3 {
+  margin-bottom: 10px;
+}
+
+.stay-connected div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+
+.stay-connected img {
+  width: 30px;
+  height: 30px; /* Adjust icon size */
+}
+
+.stay-connected a {
+  display: inline-block;
+  margin: 0 10px; /* Add spacing between icons */
+}
+
+.stay-connected a img {
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+footer p {
+  margin: 0;
+}
